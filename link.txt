@@ -1,0 +1,58 @@
+http://app.thunkable.com/?locale=en#6654521907347456  ---> Auto app maker
+
+
+https://www.learn2crack.com/2016/09/android-user-registration-login-node-server.html
+		https://forum.xda-developers.com/oneplus-3/how-to/guide-connect-op3-mtp-linux-ubuntu-t3402472 
+		Bus 001 Device 017: ID 05c6:676c Qualcomm, Inc.
+							   (Vendor-id:Product-id)
+		ATTR{idVendor}=="05c6", ATTR{idProduct}=="676c", SYMLINK+="libmtp-%k", MODE="660", GROUP="audio", ENV{ID_MTP_DEVICE}="1", ENV{ID_MEDIA_PLAYER}="1", TAG+="uaccess"
+		Enable on your phone MTP (FTP) on your phone which allows photo or file transfer
+
+		Node-JS (Addition and Removal)
+		https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04#removing-nodejs
+
+		MongoDb
+		https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04
+		https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+		sudo systemctl start mongod
+		sudo systemctl status mongod
+		sudo systemctl stop mongod
+
+		mongo --host 127.0.0.1:27017  --> This will Begin using MongoDB. 
+
+		RoboMongo
+		https://studio3t.com/download/
+		sh studio-3t-linux-x64.sh
+
+
+
+https://www.youtube.com/watch?v=K7_CX3zkJTM
+
+https://www.youtube.com/watch?v=00LLd7qr9sA --> Creating Tabs in Studio with Tabbed Activity
+
+https://www.youtube.com/watch?v=0dToEEuPL9Y -->Add Map to Fragment
+https://stackoverflow.com/questions/19353255/how-to-put-google-maps-v2-on-a-fragment-using-viewpager
+
+
+
+
+https://www.youtube.com/watch?v=KetDpFv7HfU --> Android + Firebase Tutorial (login + logout) being followed 
+
+https://www.youtube.com/watch?v=EM2x33g4syY --> using the database
+
+https://stackoverflow.com/questions/47448297/how-to-get-uri-of-captured-photo
+
+https://www.camposha.info/source/android-viewpager-sliding-tabs-listviews-source//
+
+https://www.youtube.com/watch?v=2duc77R4Hqw --> Reading data using Value Event Listner
+
+https://stackoverflow.com/questions/47366591/how-to-update-only-specific-field-on-firebase-database-on-android
+
+dialog android example
+
+https://www.youtube.com/watch?v=wSCIuIbS-nk ---> Android ListView Onitemclick Example
+
+Android Studio Tutorial - Firebase Retrieve Realtime ----> Youtube series of video
+
+https://stackoverflow.com/questions/39548001/how-to-remove-the-action-bar-from-a-activity
