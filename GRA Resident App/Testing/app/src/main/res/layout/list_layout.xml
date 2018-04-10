@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="157dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="6dp">
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/displaySubject"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="TextView"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                tools:text="Subject" />
+
+            <TextView
+                android:id="@+id/displayCategory"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="TextView"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                tools:text="Type" />
+
+            <TextView
+                android:id="@+id/displayDescription"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:text="Description"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/displayStatus"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Status"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <ImageView
+                android:id="@+id/displayImage"
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                app:srcCompat="@drawable/googleg_standard_color_18" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

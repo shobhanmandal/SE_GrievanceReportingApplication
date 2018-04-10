@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="128dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/grievanceSubject"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="TextView"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                tools:text="Subject" />
+
+            <TextView
+                android:id="@+id/grievanceDescription"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:text="Description"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
